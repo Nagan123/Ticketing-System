@@ -1,0 +1,57 @@
+/**
+ * Animated Loading Icon
+ *
+ * @author loading.io
+ */
+@-webkit-keyframes ldio-icon-inner {
+  0% {
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+}
+@keyframes ldio-icon-inner {
+  0% {
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+}
+
+.ldio-icon-inner div {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: 10px solid #ffffff;
+  border-top-color: transparent !important;
+  border-radius: 50%;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-animation: ldio-icon-inner 1s linear infinite;
+  -moz-animation: ldio-icon-inner 1s linear infinite;
+  animation: ldio-icon-inner 1s linear infinite;
+  top: 50px;
+  left: 50px
+}
+
+.loadingio-spinner-rolling-icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+
+.ldio-icon-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-transform: translateZ(0) scale(0.32);
+  -moz-transform: translateZ(0) scale(0.32);
+  transform: translateZ(0) scale(0.32);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}

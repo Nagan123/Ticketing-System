@@ -1,0 +1,113 @@
+/* General: */
+a:hover {
+  color: #f86517;
+}
+
+.bg-sub {
+  background-color: #f86517;
+}
+
+.text-sub {
+  color: #f86517;
+}
+
+
+/* Theme Buttons: */
+.btn-z:not(.no-hover):hover {
+  background-color: #f86517;
+  border-color: #f86517;
+}
+
+.btn-z:hover {
+  color: #fff;
+}
+
+.btn-sub {
+  color: #fff;
+  background-color: #f86517;
+  border-color: #f86517;
+}
+
+.btn-sub:hover {
+  background-color: #9f4dba;
+  border-color: #9f4dba;
+  color: #fff;
+}
+
+.btn-outline-sub {
+  border-color: #f86517;
+  color: #f86517;
+}
+
+.btn-outline-sub:hover {
+  background-color: #f86517;
+  color: #fff;
+}
+
+
+/* Pace: */
+.pace .pace-progress {
+  background: #f86517;
+}
+
+.pace .pace-progress-inner {
+  box-shadow: 0 0 10px #f86517, 0 0 5px #f86517;
+}
+
+.pace .pace-activity {
+  border-top-color: #f86517;
+  border-left-color: #f86517;
+}
+
+
+/* Navbar: */
+.navbar-z .nav-link.active {
+  font-weight: 700;
+  color: #f86517 !important;
+}
+
+
+/* Posts: */
+.z-posts .content-holder a {
+  color: #f86517;
+}
+
+.z-posts .content blockquote {
+  border-left: 3px solid #f86517;
+}
+
+
+/* FAQs: */
+.z-faqs .accordion-button:not(.collapsed) {
+  color: #f86517;
+}
+
+.z-faqs .accordion-button::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ac62c5'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.z-faqs .accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgb(172 98 197 / 22%);
+}
+
+
+/* Tickets: */
+.z-listing-ticket-replies .message a:not(.no-site-color) {
+  color: #f86517;
+}
+
+
+/* @version 1.4 */
+.chat-box-body .chat-message:not(.requestor) span {
+  background-color: #ffe8f9;
+}
+
+.chat-box-body .chat-message span a {
+  color: #f86517;
+}
+
+
+/* @version 1.6 */
+.border-sub {
+  border-color: #f86517;
+}
